@@ -1,0 +1,11 @@
+bin/
+obj/
+.nuget/packages/*
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+appsettings.Development.json
+.vs/
+*.user
+*.suo
+*.mdf
+*.ldf
