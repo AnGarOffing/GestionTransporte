@@ -1,5 +1,7 @@
 namespace GestionTransporte
 {
+    using Microsoft.EntityFrameworkCore;
+
     public class Program
     {
         public static void Main(string[] args)
@@ -8,7 +10,8 @@ namespace GestionTransporte
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-
+            
+            
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
