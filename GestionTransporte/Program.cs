@@ -1,6 +1,8 @@
 namespace GestionTransporte
 {
     using Microsoft.EntityFrameworkCore;
+    using Microsoft.Extensions.Configuration;
+    using System;
 
     public class Program
     {
@@ -11,7 +13,7 @@ namespace GestionTransporte
             // Add services to the container.
             builder.Services.AddControllersWithViews();
             
-            
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
