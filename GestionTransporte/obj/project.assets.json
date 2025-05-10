@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects of Develop\\Visual Studio\\PROJECTS\\GestionTransporte\\GestionTransporte\\GestionTransporte.csproj",
+      "projectUniqueName": "D:\\Projects of Develop\\Visual Studio\\VISUAL STUDIO PROJECTS\\GestionTransporte\\GestionTransporte\\GestionTransporte.csproj",
       "projectName": "GestionTransporte",
-      "projectPath": "D:\\Projects of Develop\\Visual Studio\\PROJECTS\\GestionTransporte\\GestionTransporte\\GestionTransporte.csproj",
+      "projectPath": "D:\\Projects of Develop\\Visual Studio\\VISUAL STUDIO PROJECTS\\GestionTransporte\\GestionTransporte\\GestionTransporte.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects of Develop\\Visual Studio\\PROJECTS\\GestionTransporte\\GestionTransporte\\obj\\",
+      "outputPath": "D:\\Projects of Develop\\Visual Studio\\VISUAL STUDIO PROJECTS\\GestionTransporte\\GestionTransporte\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
