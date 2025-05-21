@@ -1,0 +1,24 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "Name=DefaultConnection"
+  },
+  "ContextClassName": "GestionTransporteDbContext",
+  "ContextNamespace": "GestionTransporte.DAL",
+  "ContextDir": "DAL",
+  "DefaultDacpacSchema": null,
+  "DoNotCombineNamespace": false,
+  "IdReplace": false,
+  "IncludeConnectionString": true,
+  "ModelNamespace": "GestionTransporte.Models.DbEntities",
+  "OutputPath": "Models/DbEntities",
+  "ProjectRootNamespace": "GestionTransporte",
+  "SelectedHandlebarsLanguage": 0,
+  "SelectedToBeGenerated": 0,
+  "Tables": [],
+  "UseDatabaseNames": false,
+  "UseFluentApiOnly": true,
+  "UseHandleBars": false,
+  "UseInflector": false,
+  "UseLegacyPluralizer": false,
+  "UseSpatial": false
+} 

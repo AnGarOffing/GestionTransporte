@@ -18,7 +18,7 @@ namespace GestionTransporte.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult TiposDeIdentificacion()
         {
             return View();
         }

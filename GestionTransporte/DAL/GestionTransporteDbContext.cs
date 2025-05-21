@@ -1,8 +1,9 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
+using GestionTransporte.Models.DbEntities;
 
-namespace GestionTransporte.Models;
+namespace GestionTransporte.DAL;
 
 public partial class GestionTransporteDbContext : DbContext
 {
@@ -15,7 +16,7 @@ public partial class GestionTransporteDbContext : DbContext
     {
     }
 
-    public virtual DbSet<TipoIdentificacion> TipoIdentificacions { get; set; }
+    public virtual DbSet<TipoIdentificacion> TipoIdentificacion { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         => optionsBuilder.UseSqlServer("Name=DefaultConnection");
@@ -37,4 +38,4 @@ public partial class GestionTransporteDbContext : DbContext
     }
 
     partial void OnModelCreatingPartial(ModelBuilder modelBuilder);
-}
+} 

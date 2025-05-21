@@ -12,7 +12,8 @@ namespace GestionTransporte
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
-            
+            builder.Services.AddDbContext<DAL.GestionTransporteDbContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             var app = builder.Build();
 
